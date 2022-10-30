@@ -1,0 +1,84 @@
+.main-twitter-content{
+  display:flex;
+  flex-direction: column;
+  border-right-style: solid;
+  border-right-color: lightgray;
+  border-right-width: thin;
+}
+
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  z-index: 200;
+  width: 630px;
+  top: 0;
+  position: fixed;  
+  background-color: rgba(255,255,255,.85);
+}
+
+.star-logo{
+  height: 24px;
+}
+
+.main-header div {
+  font-weight:bold;
+  font-size: 20px;
+}
+
+
+.tweet-box-content {
+  margin-top: 40px;
+  display: flex;
+  width: 97%;
+  padding: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  border-radius: 1px;
+  border-width: thin;
+}
+
+.main-twitter-content {
+  width: 100%;
+}
+
+.tweet-right-content {
+  width: 100%;
+}
+
+.tweet-text-area-2 {
+  margin-top: 55px;
+  height: 50px;
+  width: 91%;
+  font-family:TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  outline:none;
+  border-bottom-color: lightgray;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.tweet-box-footer-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-button-4 {
+  background-color: rgb(29, 155, 240);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+  padding-left: 18px; 
+  border-radius: 48px;
+  color:white;
+  border:none;
+  font-size: 16px;
+}
+
+.tweet-button-4:hover{
+  background-color: rgb(23, 135, 211);
+}

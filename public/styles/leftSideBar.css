@@ -1,0 +1,111 @@
+.left-sidebar{
+  display: flex;
+  flex-direction:column;
+  /*change to 1 fr 1fr 1fr */
+  border-right-color: lightgray;
+  border-width:thin;
+  border-right-style:solid;
+  padding-top: 20px;
+  padding-right: 45px;
+  padding-left: 30px; 
+}
+
+.left-button-container{
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+  margin-left: 200px;
+  gap:5px;
+
+}
+
+.sidebar-button {
+ 
+  display: flex;
+  padding: 10px;
+  border-radius: 20px;
+  transition: background-color .15s;
+  align-content: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 10px;
+  padding-left: 12px;
+  
+}
+
+.home-button,.explore-button,.lists-button,.profile-button,.more-button{
+  width: 100px;
+}
+
+.notifications-button,.messages-button,.bookmarks-button,.pr{
+  width: 150px;
+}
+
+.sidebar-button .button-description{
+  margin-left: 16px;
+  font-size:20px;
+}
+
+.home-button .button-description{
+  font-weight: bold;
+}
+
+.sidebar-button:hover {
+  background-color: rgba(201, 202, 196, 0.885);
+}
+
+.home-logo{
+  height: 20px;
+}
+
+.twitter-logo{
+  height: 30px;
+  margin-left:4px;
+}
+
+.twiiter-logo-button{
+  height:30px;
+  width:40px;
+}
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  display: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 48px;
+  color:white;
+  border:none;
+  font-size: 14px;
+}
+
+.tweet-button:hover{
+  background-color: rgb(23, 135, 211);
+}
+
+.tweet-button-2 {
+  background-color: rgb(29, 155, 240);
+  display: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 85px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 48px;
+  color:white;
+  border:none;
+  font-size: 16px;
+}
+
+.tweet-button-2:hover{
+  background-color: rgb(23, 135, 211);
+}
+

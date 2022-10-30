@@ -1,0 +1,73 @@
+
+.search-logo {
+  width: 16px;
+  margin-right: 14px;
+}
+
+.search-twitter-button {
+  display: flex;
+  background-color: none;
+  border: none;
+  background-color: rgb(238, 233, 233);
+  width: 310px;
+  height: 40px;
+  border-radius: 48px;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-left: 20px;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: thin;
+  z-index: 200;
+  position: fixed;
+}
+
+.tweet-news{
+  margin-top: 120px;
+  background-color: rgb(236, 234, 234);
+  margin-left:  30px;
+  margin-right: 105px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.tweet-news-header {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+  
+}
+
+.news-card{
+  display: flex;
+  justify-content: center;
+}
+.title{
+  font-size: 12px;
+  font-weight: thin;
+}
+
+.title-content {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.MrBeast-logo{
+  width: 84px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.florida-man-logo,.facebook-logo,.ghost-logo  {
+  width: 84px;
+  height: 72px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+}

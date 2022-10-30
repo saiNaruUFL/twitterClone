@@ -1,0 +1,16 @@
+.page-container {
+  display:grid;
+  grid-template-columns: 1fr 1.3fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr;
+  
+}
+
+body{
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  padding: 0;
+} 
+
+html {
+  padding: 0;
+}
+
