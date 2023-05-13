@@ -88,6 +88,7 @@ tweetButton4.addEventListener('click',function(){
 
 
 if(firstTime){
+  console.log("yolo")
   fetch('/api/tweets')
   .then((response) => response.json())
   .then((response) => {

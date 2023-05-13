@@ -23,6 +23,7 @@ app.get('/',(req,res) => {
 
 app.get('/api/tweets',(req,response) => {
  
+  console.log("yo whats up duddy")
   const allTweets = Tweet.find({});
 
   allTweets
