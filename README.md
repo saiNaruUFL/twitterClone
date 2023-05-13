@@ -7,4 +7,4 @@ Link URL:
 Link URL: https://twitter-clone-personal-project.herokuapp.com/
 
 # Description
-The project was made under training for SEC(Software Engineering Club), uses REST artchitecture to get and post tweets. The front-end is purely made with html and css, Node.js for backend logic, and using MongoDB to store tweets
+This project is a Twitter clone that allows users to post tweets and mimics the look and feel of the original platform. It uses HTML and CSS for the front-end, Node.js for the back-end, and MongoDB to store tweets.
